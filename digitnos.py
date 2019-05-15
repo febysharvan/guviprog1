@@ -1,0 +1,10 @@
+a=int(input(""));
+i=0;
+while(1):
+    b=a%10;
+    a=a/10;
+    if(a>1):
+       i=i+1;
+    else:
+        print(i+1);
+        break
