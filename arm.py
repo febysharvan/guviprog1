@@ -1,0 +1,12 @@
+a=int(input())
+rem=0
+anos=a
+sum=0
+while(anos>0):
+ rem=anos%10
+ sum+=rem**3
+ anos=anos//10
+if(sum==a):
+    print("yes")
+else:
+    print("no")
