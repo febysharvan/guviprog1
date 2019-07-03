@@ -1,2 +1,4 @@
 n=int(input())
-print(n//60,n%60)
+a=n//60
+b=n%60
+print(a,b)
