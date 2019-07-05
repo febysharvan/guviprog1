@@ -1,0 +1,5 @@
+a,b=map(int,input().split())
+c,d=map(int,input().split())
+koi=abs(a-c)
+iok=abs(b-d)
+print(koi,iok)
