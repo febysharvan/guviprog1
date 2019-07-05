@@ -1,2 +1,4 @@
 a=int(input())
-print(int(a/60),a%60)
+b=int(a%60)
+c=int(a/60)
+print(c,b)
