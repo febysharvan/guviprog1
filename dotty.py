@@ -1,2 +1,3 @@
 a=input()
-print(a+".")
+b=(a+".")
+print(b)
